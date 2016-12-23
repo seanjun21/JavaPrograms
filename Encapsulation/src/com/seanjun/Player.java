@@ -5,7 +5,7 @@ package com.seanjun;
  */
 public class Player {
 
-    public String name;
+    public String fullName;
     public int health;
     public String weapon;
 
@@ -18,6 +18,6 @@ public class Player {
     }
 
     public int healthRemaining() {
-        
+        return this.health;
     }
 }
