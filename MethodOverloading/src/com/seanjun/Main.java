@@ -34,7 +34,7 @@ public class Main {
         // and then here is the tricky part
         // call the other overloaded method passing the correct feet and inches
         // calculated so that it can calculate correctly.
-        // hints: Use double for your number datatypes is probably a good idea
+        // hints: Use double for your number data types is probably a good idea
         // 1 inch = 2.54cm  and one foot = 12 inches
         // use the link I give you to confirm your code is calculating correctly.
         // Calling another overloaded method just requires you to use the
