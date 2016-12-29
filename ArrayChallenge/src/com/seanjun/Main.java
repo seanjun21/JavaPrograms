@@ -7,6 +7,7 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+
         // Create a program using arrays that sorts a list of integers in descending order.
         // Descending order is highest value to lowest.
         // In other words if the array had the values in it 106, 26, 81, 5, 15 your program should
@@ -26,7 +27,7 @@ public class Main {
 
     public static int[] getIntegers(int capacity) {
         int[] array = new int[capacity];
-        System.out.println("Enter " + capacity + " integer values:\r");
+        System.out.println("Enter " + capacity + " integer values:R\r");
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
         }
